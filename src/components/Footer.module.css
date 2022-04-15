@@ -1,0 +1,57 @@
+/*Footer*/
+footer p {
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+footer {
+  background-color: black;
+}
+footer .inner {
+  padding: 75px 0;
+  display: flex;
+  width: 1150px;
+  position: relative;
+  margin: auto;
+}
+footer .menu1 {
+  display: flex;
+}
+footer .menu1 .info1 {
+  margin-right: 80px;
+}
+footer .footerlogo {
+  width: 160px;
+  height: 25px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+footer .inner .menu2 {
+  display: flex;
+  position: absolute;
+  right: 0;
+  align-items: center;
+  height: 67px;
+}
+
+footer .instalogo {
+  width: 46px;
+  height: 46px;
+  display: inline;
+  margin-left: 30px;
+}
+footer .inner .menu2 .menua {
+  color: #fff;
+  font-size: 12px;
+  margin-right: 10px;
+}
+footer .inner .menu2 .menua:first-child::before {
+  content: "";
+}
+footer .inner .menu2 .menua::before {
+  content: "|";
+  float: left;
+  color: #fff;
+  margin-right: 10px;
+}

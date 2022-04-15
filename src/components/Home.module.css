@@ -1,0 +1,90 @@
+/*Content*/
+.btn {
+  width: 140px;
+  height: 28px;
+  border-radius: 14px;
+  font-size: 12px;
+  display: block;
+  color: #3e3a39;
+  border: 1px solid #3e3a39;
+  cursor: pointer;
+  padding: 6px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.btn:hover {
+  color: #4c95df;
+}
+.mainMenu {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  position: relative;
+  margin-right: 67px;
+  margin-left: 67px;
+  margin-top: 65px;
+  margin-bottom: 75px;
+  box-sizing: border-box;
+}
+
+.about {
+  width: 1150px;
+  height: 340px;
+  border: 1px solid #b5b5b6;
+  margin-bottom: 25px;
+  background-image: url("/public/images/banner_01.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.portfolio1 {
+  width: 1150px;
+  height: 340px;
+  border: 1px solid #b5b5b6;
+  margin-bottom: 25px;
+  background-image: url("/public/images/banner_01.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.portfolio2 {
+  width: 1150px;
+  height: 340px;
+  border: 1px solid #b5b5b6;
+  margin-bottom: 25px;
+  background-image: url("/public/images/banner_01.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.shop {
+  width: 1150px;
+  height: 340px;
+  border: 1px solid #b5b5b6;
+  margin-bottom: 25px;
+  background-image: url("/public/images/banner_01.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  left: 100px;
+  bottom: 0;
+  margin-bottom: 70px;
+}
+
+.box > h2 {
+  font-size: 40px;
+  color: #3e3a39;
+}
+
+.subtitle {
+  margin-top: 15px;
+  font-size: 15px;
+  color: #3e3a39;
+}
+.aboutBtn {
+  margin-top: 44px;
+}
