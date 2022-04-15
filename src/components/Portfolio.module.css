@@ -70,3 +70,15 @@
   box-sizing: border-box;
   text-align: center;
 }
+
+.text2 {
+  height: 100px;
+  position: absolute;
+  font-size: 15px;
+  right: 0;
+  left: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}

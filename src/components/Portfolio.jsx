@@ -88,6 +88,9 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
+        <div className={styles.text2}>
+          <span>ART CREATION GROUP</span>
+        </div>
       </div>
     </section>
   );

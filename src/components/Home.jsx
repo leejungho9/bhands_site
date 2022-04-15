@@ -27,14 +27,11 @@ export default function Home() {
               </a>
             </div>
           </section>
-          <section className={styles.portfolio2}>
+          <section className={styles.contact}>
             <div className={styles.box}>
-              <h2 className={styles.title}>Portfolio</h2>
+              <h2 className={styles.title}>Contact</h2>
               <p className={styles.subtitle}>비핸즈의 제작 제품 포토폴리오</p>
-              <a
-                href="/portfolio"
-                className={`${styles.btn} ${styles.aboutBtn}`}
-              >
+              <a href="/contact" className={`${styles.btn} ${styles.aboutBtn}`}>
                 VIEW MORE
               </a>
             </div>

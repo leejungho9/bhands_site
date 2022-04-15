@@ -12,9 +12,7 @@
   box-sizing: border-box;
   text-align: center;
 }
-.btn:hover {
-  color: #4c95df;
-}
+
 .mainMenu {
   display: flex;
   justify-content: center;
@@ -48,7 +46,7 @@
   position: relative;
 }
 
-.portfolio2 {
+.contact {
   width: 1150px;
   height: 340px;
   border: 1px solid #b5b5b6;
