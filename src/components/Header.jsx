@@ -16,11 +16,19 @@ export default function Header() {
             <img src="./images/logo.png" alt="로고" />
           </a>
           <div className="ham" onClick={showSidebar}>
-            <img src="./images/ham.png" alt="햄버거버튼"></img>
+            <img
+              src="./images/ham.png"
+              className="hamBtn"
+              alt="햄버거버튼"
+            ></img>
           </div>
           <div className={sidebar ? "nav-menu active" : "nav-menu"}>
             <div className="close" onClick={showSidebar}>
-              <img src="./images/x.png" alt="닫기버튼"></img>
+              <img
+                src="./images/x.png"
+                className="closeBtn"
+                alt="닫기버튼"
+              ></img>
             </div>
             <div className="categoryList">
               <h2>
