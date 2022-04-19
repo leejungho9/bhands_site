@@ -30,7 +30,7 @@ export default function Home() {
           <section className={styles.contact}>
             <div className={styles.box}>
               <h2 className={styles.title}>Contact</h2>
-              <p className={styles.subtitle}>비핸즈의 제작 제품 포트폴리오</p>
+              <p className={styles.subtitle}>비핸즈에 대한 문의 및 연락</p>
               <a href="/contact" className={`${styles.btn} ${styles.aboutBtn}`}>
                 VIEW MORE
               </a>

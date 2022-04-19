@@ -7,6 +7,7 @@ import Portfolio from "../src/components/Portfolio";
 import NotFound from "../src/components/NotFound";
 import Footer from "../src/components/Footer";
 import Header from "../src/components/Header";
+import Calendar from "../src/components/Calendar";
 import { Switch } from "react-router-dom";
 
 function App() {
@@ -15,8 +16,9 @@ function App() {
       <Header />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/About" exact component={About} />
-        <Route path="/Portfolio" exact component={Portfolio} />
+        <Route path="/calendar" exact component={Calendar} />
+        <Route path="/about" exact component={About} />
+        <Route path="/portfolio" exact component={Portfolio} />
         <Route component={NotFound} />
       </Switch>
       <Footer />

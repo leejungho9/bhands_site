@@ -2,7 +2,7 @@ body {
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif; */
-  font-family: "Yoongothic";
+  font-family: "윤고딕360";
   /* font-family: "Yoongothic", "Noto Sans KR", sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -23,6 +23,14 @@ img {
 }
 
 @font-face {
-  font-family: "Yoongothic";
-  src: url("./font/Yoongothic.ttf");
+  font-family: "윤고딕320";
+  src: url("./fonts/윤고딕320.ttf");
+}
+@font-face {
+  font-family: "윤고딕340";
+  src: url("./fonts/윤고딕340.ttf");
+}
+@font-face {
+  font-family: "윤고딕360";
+  src: url("./fonts/윤고딕360.ttf");
 }

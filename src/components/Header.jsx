@@ -38,7 +38,7 @@ export default function Header() {
                 <a href="/"> ABOUT</a>
               </h2>
               <h2 class={workMenu ? "work-menu active" : "work-menu"}>
-                <a href="#" onClick={showworkMenu}>
+                <a href="javascript:void(0);" onClick={showworkMenu}>
                   WORKS
                 </a>
               </h2>

@@ -1,3 +1,7 @@
+.bar {
+  height: 10px;
+  background-color: #000;
+}
 header .inner {
   /* width: 1920px; */
   width: 100%;
