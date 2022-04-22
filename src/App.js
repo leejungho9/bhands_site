@@ -9,6 +9,7 @@ import Footer from "../src/components/Footer";
 import Header from "../src/components/Header";
 import Calendar from "../src/components/Calendar";
 import { Switch } from "react-router-dom";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
       <Header />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/calendar" exact component={Calendar} />
         <Route path="/about" exact component={About} />
+        <Route path="/calendar" exact component={Calendar} />
+        <Route path="/contact" exact component={Contact} />
         <Route path="/portfolio" exact component={Portfolio} />
         <Route component={NotFound} />
       </Switch>

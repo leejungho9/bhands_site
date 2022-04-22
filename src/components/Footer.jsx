@@ -11,7 +11,7 @@ export default function Footer() {
               src="./images/footer logo.png"
               alt="로고"
             />
-            <p>Bhands, All rights reserved. 대표자 : 박소연</p>
+            <p> ©Bhands, All rights reserved. 대표자 : 박소연</p>
           </div>
           <div className={styles.info2}>
             <p>Business Code : 141-81-34625</p>

@@ -4,11 +4,12 @@
   height: 28px;
   border-radius: 14px;
   font-size: 12px;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #3e3a39;
   border: 1px solid #3e3a39;
   cursor: pointer;
-  padding: 6px;
   box-sizing: border-box;
   text-align: center;
 }

@@ -15,8 +15,9 @@ export default function Header() {
           <a href="/" className="logo">
             <img src="./images/logo.png" alt="로고" />
           </a>
-          <div className="ham" onClick={showSidebar}>
+          <div className="ham">
             <img
+              onClick={showSidebar}
               src="./images/ham.png"
               className="hamBtn"
               alt="햄버거버튼"
