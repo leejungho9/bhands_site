@@ -80,6 +80,8 @@
   background-color: #f6f6f6;
   padding: 20px;
   box-sizing: border-box;
+  font-size: 15px;
+  font-family: "윤고딕320";
 }
 
 .contentInput::-webkit-scrollbar {
