@@ -23,7 +23,7 @@ export default function Contact() {
                   <input
                     type="text"
                     className="emailInput"
-                    placeholder="EAMIL"
+                    placeholder="EMAIL"
                   ></input>
                 </div>
                 <div className="name">
