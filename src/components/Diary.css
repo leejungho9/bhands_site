@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
 }
-.container {
+.diary_container {
   width: 1150px;
   position: relative;
   margin: 0 67px;

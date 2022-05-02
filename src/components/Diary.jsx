@@ -10,7 +10,7 @@ export default function Diary() {
   const [isActive, setisActive] = useState("0");
   return (
     <section className="dairy">
-      <div className="container">
+      <div className="diary_container">
         <div className="topMenu">
           <div className="year">
             <span

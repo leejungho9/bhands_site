@@ -16,7 +16,7 @@ export default function Portfolio() {
             </div>
             <div className={styles.midlebox}></div>
             <div className={styles.bottombox}>
-              <a class={styles.btn} href="/shop">
+              <a class={styles.btn} href="/artgoods">
                 VIEW MORE
               </a>
             </div>

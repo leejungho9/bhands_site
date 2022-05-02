@@ -7,181 +7,32 @@ export default class SimpleSlider extends Component {
   render() {
     const settings = {
       dots: true,
-      variableWidth: true,
-      infinite: true /*반복 */,
-      speed: 500 /*속도*/,
-      slidesToShow: 12 /*컨텐츠 개수*/,
-      slidesToScroll: 12 /*넘어가는 콘텐츠 수*/,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
     };
     return (
-      <div className="no">
+      <div>
+        <h2> Single Item</h2>
         <Slider {...settings}>
-          <div className="box">
-            <img
-              alt="캘린더"
-              className="calendarImage"
-              src="../images/calendar_02.png"
-            />
-            <div className="info">
-              <span>2022</span>
-              <span>삼성생명 VIP</span>
-            </div>
+          <div>
+            <h3>1</h3>
           </div>
-
-          <div className="box">
-            <img
-              alt="캘린더"
-              className="calendarImage"
-              src="../images/calendar_02.png"
-            />
-            <div className="info">
-              <span>2022</span>
-              <span>삼성생명 VIP</span>
-            </div>
+          <div>
+            <h3>2</h3>
           </div>
-
-          <div className="box">
-            <img
-              alt="캘린더"
-              className="calendarImage"
-              src="../images/calendar_02.png"
-            />
-            <div className="info">
-              <span>2022</span>
-              <span>삼성생명 VIP</span>
-            </div>
+          <div>
+            <h3>3</h3>
           </div>
-
-          <div className="box">
-            <img
-              alt="캘린더"
-              className="calendarImage"
-              src="../images/calendar_02.png"
-            />
-            <div className="info">
-              <span>2022</span>
-              <span>삼성생명 VIP</span>
-            </div>
+          <div>
+            <h3>4</h3>
           </div>
-
-          <div className="box">
-            <img
-              alt="캘린더"
-              className="calendarImage"
-              src="../images/calendar_02.png"
-            />
-            <div className="info">
-              <span>2022</span>
-              <span>삼성생명 VIP</span>
-            </div>
+          <div>
+            <h3>5</h3>
           </div>
-
-          <div className="box">
-            <img
-              alt="캘린더"
-              className="calendarImage"
-              src="../images/calendar_02.png"
-            />
-            <div className="info">
-              <span>2022</span>
-              <span>삼성생명 VIP</span>
-            </div>
-          </div>
-
-          <div className="box">
-            <img
-              alt="캘린더"
-              className="calendarImage"
-              src="../images/calendar_02.png"
-            />
-            <div className="info">
-              <span>2022</span>
-              <span>삼성생명 VIP</span>
-            </div>
-          </div>
-
-          <div className="box">
-            <img
-              alt="캘린더"
-              className="calendarImage"
-              src="../images/calendar_02.png"
-            />
-            <div className="info">
-              <span>2022</span>
-              <span>삼성생명 VIP</span>
-            </div>
-          </div>
-
-          <div className="box">
-            <img
-              alt="캘린더"
-              className="calendarImage"
-              src="../images/calendar_02.png"
-            />
-            <div className="info">
-              <span>2022</span>
-              <span>삼성생명 VIP</span>
-            </div>
-          </div>
-
-          <div className="box">
-            <img
-              alt="캘린더"
-              className="calendarImage"
-              src="../images/calendar_02.png"
-            />
-            <div className="info">
-              <span>2022</span>
-              <span>삼성생명 VIP</span>
-            </div>
-          </div>
-
-          <div className="box">
-            <img
-              alt="캘린더"
-              className="calendarImage"
-              src="../images/calendar_02.png"
-            />
-            <div className="info">
-              <span>2022</span>
-              <span>삼성생명 VIP</span>
-            </div>
-          </div>
-
-          <div className="box">
-            <img
-              alt="캘린더"
-              className="calendarImage"
-              src="../images/calendar_02.png"
-            />
-            <div className="info">
-              <span>2022</span>
-              <span>삼성생명 VIP</span>
-            </div>
-          </div>
-
-          <div className="box">
-            <img
-              alt="캘린더"
-              className="calendarImage"
-              src="../images/calendar_02.png"
-            />
-            <div className="info">
-              <span>2022</span>
-              <span>삼성생명 VIP</span>
-            </div>
-          </div>
-
-          <div className="box">
-            <img
-              alt="캘린더"
-              className="calendarImage"
-              src="../images/calendar_02.png"
-            />
-            <div className="info">
-              <span>2022</span>
-              <span>삼성생명 VIP</span>
-            </div>
+          <div>
+            <h3>6</h3>
           </div>
         </Slider>
       </div>

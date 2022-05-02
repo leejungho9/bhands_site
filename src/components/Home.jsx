@@ -39,7 +39,10 @@ export default function Home() {
             <div className={styles.box}>
               <h2 className={styles.title}>Shop</h2>
               <p className={styles.subtitle}>비핸즈의 브랜드 샵</p>
-              <a href="/shop" className={`${styles.btn} ${styles.aboutBtn}`}>
+              <a
+                href="/artgoods"
+                className={`${styles.btn} ${styles.aboutBtn}`}
+              >
                 VIEW MORE
               </a>
             </div>

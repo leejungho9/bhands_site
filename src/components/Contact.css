@@ -24,15 +24,18 @@
   align-items: center;
   font-size: 15px;
   margin-bottom: 20px;
+  justify-content: space-between;
 }
 .group {
   display: flex;
+  letter-spacing: 2px;
   justify-content: space-between;
 }
 .content {
   display: flex;
   font-size: 15px;
   margin-bottom: 20px;
+  justify-content: space-between;
   overflow-x: hidden;
 }
 

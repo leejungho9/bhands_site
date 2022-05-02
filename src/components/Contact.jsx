@@ -10,7 +10,7 @@ export default function Contact() {
             <h1>DEAR. B*HANDS...</h1>
             <div className="contactArea">
               <div className="title">
-                <h2 className="titleH2">제목</h2>
+                <h2 className="titleH2"> 제목</h2>
                 <input
                   type="text"
                   className="titleInput"

@@ -26,7 +26,7 @@ function App() {
         <Route path="/calendar/detail" component={CalendarDetail} />
         <Route path="/contact" component={Contact} />
         <Route path="/portfolio" component={Portfolio} />
-        <Route path="/shop" component={Shop} />
+        <Route path="/artgoods" component={Shop} />
         <Route path="/diary" component={Diary} />
         <Route path="/package" component={Package} />
         <Route component={NotFound} />

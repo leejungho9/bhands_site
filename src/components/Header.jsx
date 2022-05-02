@@ -70,7 +70,7 @@ export default function Header() {
                 <a href="contact"> CONTACT</a>
               </h2>
               <h2>
-                <a href="/shop"> SHOP</a>
+                <a href="/artgoods"> SHOP</a>
               </h2>
             </div>
           </div>
