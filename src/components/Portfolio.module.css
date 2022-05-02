@@ -36,8 +36,9 @@
   margin-bottom: 20px;
 }
 .topbox .subTitle {
+  width: 279px;
   font-size: 14px;
-  line-height: normal;
+  line-height: 1.5;
 }
 .midlebox {
   height: 369px;

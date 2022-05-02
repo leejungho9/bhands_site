@@ -1,12 +1,13 @@
-.calendar {
+.package {
   display: flex;
   justify-content: center;
 }
-.container {
+.package_container {
   width: 1150px;
   position: relative;
   margin: 0 67px;
   box-sizing: border-box;
+  margin-top: 65px;
 }
 .topMenu {
   height: 65px;

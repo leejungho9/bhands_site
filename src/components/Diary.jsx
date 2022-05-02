@@ -1,16 +1,15 @@
 import { useState } from "react";
-import "./Calendar.css";
+import "./Diary.css";
 import {
   faAngleDoubleLeft,
   faAngleDoubleRight,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default function Calendar() {
+export default function Diary() {
   const [isActive, setisActive] = useState("0");
-
   return (
-    <section className="calendar">
+    <section className="dairy">
       <div className="container">
         <div className="topMenu">
           <div className="year">
@@ -74,11 +73,10 @@ export default function Calendar() {
         <div className="inner">
           <div className="box">
             <img
-              alt="캘린더"
+              alt="다이어리"
               className="calendarImage"
               src="../images/calendar_02.png"
             />
-
             <div className="info">
               <span>2022</span>
               <span>삼성생명 VIP</span>

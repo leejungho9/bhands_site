@@ -13,20 +13,22 @@ export default function Header() {
       <header>
         <div className="inner">
           <a href="/" className="logo">
-            <img src="./images/logo.png" alt="로고" />
+            <img src="/images/logo.png" alt="로고" />
           </a>
           <div className="ham">
             <img
               onClick={showSidebar}
-              src="./images/ham.png"
+              src="/images/ham.png"
               className="hamBtn"
               alt="햄버거버튼"
             ></img>
           </div>
+
           <div className={sidebar ? "nav-menu active" : "nav-menu"}>
+            <div className="bg" onClick={showSidebar}></div>
             <div className="close" onClick={showSidebar}>
               <img
-                src="./images/x.png"
+                src="/images/x.png"
                 className="closeBtn"
                 alt="닫기버튼"
               ></img>
@@ -38,10 +40,11 @@ export default function Header() {
               <h2>
                 <a href="/"> ABOUT</a>
               </h2>
-              <h2 class={workMenu ? "work-menu active" : "work-menu"}>
-                <a href="javascript:void(0);" onClick={showworkMenu}>
-                  WORKS
-                </a>
+              <h2
+                className={workMenu ? "work-menu active" : "work-menu"}
+                onClick={showworkMenu}
+              >
+                WORKS
               </h2>
               <ul className={workMenu ? "work-menu active" : "work-menu"}>
                 <li>
@@ -71,7 +74,7 @@ export default function Header() {
               </h2>
             </div>
           </div>
-          <div className="bg" onClick={showSidebar}></div>
+          {/* <div className="bg" onClick={showSidebar}></div> */}
         </div>
         <hr />
       </header>

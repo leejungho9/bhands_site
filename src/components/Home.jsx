@@ -3,7 +3,6 @@ import styles from "./Home.module.css";
 export default function Home() {
   return (
     <>
-      <div className={styles.sidebar}></div>
       <div className={styles.mainMenu}>
         <div className={styles.container}>
           <section className={styles.about}>

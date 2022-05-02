@@ -87,3 +87,12 @@
 .aboutBtn {
   margin-top: 44px;
 }
+
+@media (max-width: 768px) {
+  .mainMenu {
+    width: 768px;
+  }
+  section {
+    width: 768px;
+  }
+}
