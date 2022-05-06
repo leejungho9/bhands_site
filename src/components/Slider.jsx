@@ -5,6 +5,7 @@ import "./slick-theme.css";
 
 export default class SimpleSlider extends Component {
   render() {
+    const sliderActive = this.props.value;
     const settings = {
       dots: true,
       infinite: true,
@@ -12,29 +13,28 @@ export default class SimpleSlider extends Component {
       slidesToShow: 1,
       slidesToScroll: 1,
     };
+
     return (
-      <div>
-        <h2> Single Item</h2>
-        <Slider {...settings}>
-          <div>
-            <h3>1</h3>
-          </div>
-          <div>
-            <h3>2</h3>
-          </div>
-          <div>
-            <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
-        </Slider>
+      <div className={sliderActive ? "sliderArea-hidden" : "sliderArea"}>
+        <div className="imagecontainer">
+          <Slider {...settings}>
+            <div className="imageArea">
+              <img src="./images/slider-image.jpg" alt="slider-Img" />
+            </div>
+            <div>
+              <img src="./images/slider-image.jpg" alt="slider-Img" />
+            </div>
+            <div>
+              <img src="./images/slider-image.jpg" alt="slider-Img" />
+            </div>
+            <div>
+              <img src="./images/slider-image.jpg" alt="slider-Img" />
+            </div>
+            <div>
+              <img src="./images/slider-image.jpg" alt="slider-Img" />
+            </div>
+          </Slider>
+        </div>
       </div>
     );
   }

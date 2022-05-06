@@ -1,6 +1,24 @@
 /* Slider */
+
+.sliderArea {
+  display: block;
+  width: 1284px;
+  height: 743px;
+  background-color: #f6f6f6;
+  position: relative;
+}
+.sliderArea-hidden {
+  display: none;
+}
+.imagecontainer {
+  margin-top: 85px;
+  margin-bottom: 155px;
+  text-align: center;
+}
+.imageArea {
+  width: 740px !important;
+}
 .slick-slider {
-  height: 2100px;
   position: relative;
 
   display: block;
@@ -31,6 +49,7 @@
 }
 .slick-list.dragging {
   cursor: pointer;
+
   cursor: hand;
 }
 
@@ -77,6 +96,8 @@
 }
 .slick-slide img {
   display: block;
+  margin: auto;
+  height: 500px;
 }
 .slick-slide.slick-loading img {
   display: none;

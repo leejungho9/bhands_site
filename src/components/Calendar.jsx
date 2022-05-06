@@ -5,14 +5,21 @@ import {
   faAngleDoubleRight,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Slider from "./Slider";
 
 export default function Calendar() {
   const [isActive, setisActive] = useState("0");
 
+  const [isTopMenu, setisTopMenu] = useState(true);
+
   return (
     <section className="calendar">
+      <Slider value={isTopMenu} />
       <div className="container">
-        <div className="topMenu">
+        <div
+          onClick={() => setisTopMenu(!isTopMenu)}
+          className={isTopMenu ? "topMenu" : "topMenu-hidden"}
+        >
           <div className="year">
             <span
               onClick={() => setisActive("1")}
@@ -72,7 +79,7 @@ export default function Calendar() {
         </div>
 
         <div className="inner">
-          <div className="box">
+          <div className="box" onClick={() => setisTopMenu(!isTopMenu)}>
             <img
               alt="캘린더"
               className="calendarImage"

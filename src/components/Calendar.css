@@ -1,6 +1,9 @@
 .calendar {
+  margin: auto;
+  width: 1284px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .container {
   width: 1150px;
@@ -14,7 +17,12 @@
   align-items: center;
   justify-content: space-between;
 }
-
+.topMenu-hidden {
+  display: none;
+}
+.topMenu-hidden ~ .inner {
+  margin-top: 50px;
+}
 .year span {
   margin-right: 20px;
   font-size: 15px;
