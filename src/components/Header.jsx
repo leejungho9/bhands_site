@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import "./Header.css";
 
@@ -27,11 +28,7 @@ export default function Header() {
           <div className={sidebar ? "nav-menu active" : "nav-menu"}>
             <div className="bg" onClick={showSidebar}></div>
             <div className="close" onClick={showSidebar}>
-              <img
-                src="/images/x.png"
-                className="closeBtn"
-                alt="닫기버튼"
-              ></img>
+              <FontAwesomeIcon icon="fa-solid fa-xmark" />
             </div>
             <div className="categoryList">
               <h2>
@@ -71,7 +68,6 @@ export default function Header() {
               </h2>
             </div>
           </div>
-          {/* <div className="bg" onClick={showSidebar}></div> */}
         </div>
         <hr />
       </header>

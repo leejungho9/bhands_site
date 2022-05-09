@@ -4,6 +4,7 @@ import "./Calendar.css";
 import {
   faAngleDoubleLeft,
   faAngleDoubleRight,
+  faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -16,12 +17,14 @@ export default function Calendar() {
 
   return (
     <section className="calendar">
+      <FontAwesomeIcon
+        onClick={() => setisTopMenu(!isTopMenu)}
+        icon={faXmark}
+        className={isTopMenu ? "sliderColseBtn-hidden" : "sliderCloseBtn"}
+      />
       <Slider value={isTopMenu} />
       <div className="container">
-        <div
-          onClick={() => setisTopMenu(!isTopMenu)}
-          className={isTopMenu ? "topMenu" : "topMenu-hidden"}
-        >
+        <div className={isTopMenu ? "topMenu" : "topMenu-hidden"}>
           <div className="year">
             <span
               onClick={() => setisActive("1")}

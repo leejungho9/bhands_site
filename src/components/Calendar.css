@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  position: relative;
 }
 .container {
   width: 1150px;
@@ -111,4 +112,17 @@
 }
 .fas fa-angle-double-left {
   font-size: 13px;
+}
+.sliderCloseBtn {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  z-index: 1;
+  top: 25px;
+  right: 86px;
+  cursor: pointer;
+}
+
+.sliderColseBtn-hidden {
+  display: none;
 }

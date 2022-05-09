@@ -2,8 +2,8 @@
 
 .sliderArea {
   display: block;
-  width: 1284px;
   height: 743px;
+  width: 5100px;
   background-color: #f6f6f6;
   position: relative;
 }
@@ -124,13 +124,13 @@
 
 .imageYear {
   position: absolute;
-  left: 60px;
+  left: 2010px;
   bottom: 50px;
   font-size: 15px;
 }
 .imageName {
   position: absolute;
-  right: 60px;
+  right: 2010px;
   bottom: 50px;
   font-size: 15px;
 }
