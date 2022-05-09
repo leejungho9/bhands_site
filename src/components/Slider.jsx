@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "./slick.css";
 import "./slick-theme.css";
-
 export default class SimpleSlider extends Component {
   render() {
     const sliderActive = this.props.value;
@@ -35,6 +34,8 @@ export default class SimpleSlider extends Component {
             </div>
           </Slider>
         </div>
+        <p className="imageYear">2022</p>
+        <p className="imageName">삼성화재</p>
       </div>
     );
   }

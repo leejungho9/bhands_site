@@ -67,6 +67,7 @@
 
 .box {
   box-sizing: border-box;
+  cursor: pointer;
 }
 .calendarImage {
   width: 369px;

@@ -139,3 +139,7 @@ textarea::placeholder {
   background-color: #000;
   margin-bottom: 50px;
 }
+
+.mapArea {
+  margin-bottom: 100px;
+}

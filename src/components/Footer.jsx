@@ -16,7 +16,7 @@ export default function Footer() {
           <div className={styles.info2}>
             <p>Business Code : 141-81-34625</p>
             <p>Address : 경기도 파주시 광인사길 9-7</p>
-            <p>Contace Code : 02 2279 9211(P), 02 796 7671(F)</p>
+            <p>Contact Code : 02 2279 9211(P), 02 796 7671(F)</p>
           </div>
         </div>
 

@@ -1,54 +1,57 @@
-import "./Contact.css";
+import styles from "./Contact.module.css";
 import Map from "./Map.jsx";
 
 export default function Contact() {
   return (
     <>
-      <section className="contact">
-        <div className="container">
-          <div className="contactInner">
+      <section className={styles.contact}>
+        <div className={styles.container}>
+          <div className={styles.contactInner}>
             <h1>DEAR. B*HANDS...</h1>
-            <div className="contactArea">
-              <div className="title">
-                <h2 className="titleH2"> 제목</h2>
+            <div className={styles.contactArea}>
+              <div className={styles.title}>
+                <h2 className={styles.titleH2}> 제목</h2>
                 <input
                   type="text"
-                  className="titleInput"
+                  className={styles.titleInput}
                   placeholder="SUBJECT"
                 ></input>
               </div>
-              <div className="group">
-                <div className="email">
-                  <h2 className="emainH2">이메일</h2>
+              <div className={styles.group}>
+                <div className={styles.email}>
+                  <h2 className={styles.emainH2}>이메일</h2>
                   <input
                     type="text"
-                    className="emailInput"
+                    className={styles.emailInput}
                     placeholder="EMAIL"
                   ></input>
                 </div>
-                <div className="name">
-                  <h2 className="nameH2">담당자</h2>
+                <div className={styles.name}>
+                  <h2 className={styles.nameH2}>담당자</h2>
                   <input
                     type="text"
-                    className="nameInput"
+                    className={styles.nameInput}
                     placeholder="NAME"
                   ></input>
                 </div>
               </div>
-              <div className="content">
-                <h2 className="cotentH2">내용</h2>
+              <div className={styles.content}>
+                <h2 className={styles.cotentH2}>내용</h2>
                 <textarea
-                  className="contentInput"
+                  className={styles.contentInput}
                   placeholder="INFOMATION"
                 ></textarea>
               </div>
-              <div className="buttonArea">
-                <button className="sendBtn">SEND</button>
+              <div className={styles.buttonArea}>
+                <button className={styles.sendBtn}>SEND</button>
               </div>
             </div>
           </div>
-          <div className="Contactbar"></div>
-          <Map />
+          <div className={styles.Contactbar}></div>
+
+          <div className={styles.mapArea}>
+            <Map />
+          </div>
         </div>
       </section>
     </>

@@ -38,7 +38,7 @@ export default function Header() {
                 <a href="/"> HOME</a>
               </h2>
               <h2>
-                <a href="/"> ABOUT</a>
+                <a href="/about"> ABOUT</a>
               </h2>
               <h2
                 className={workMenu ? "work-menu active" : "work-menu"}
@@ -68,9 +68,6 @@ export default function Header() {
               </ul>
               <h2>
                 <a href="contact"> CONTACT</a>
-              </h2>
-              <h2>
-                <a href="/artgoods"> SHOP</a>
               </h2>
             </div>
           </div>

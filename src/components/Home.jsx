@@ -34,7 +34,7 @@ export default function Home() {
               </a>
             </div>
           </section>
-          <section className={styles.shop}>
+          {/* <section className={styles.shop}>
             <div className={styles.box}>
               <h2 className={styles.title}>Shop</h2>
               <p className={styles.subtitle}>비핸즈의 브랜드 샵</p>
@@ -45,7 +45,7 @@ export default function Home() {
                 VIEW MORE
               </a>
             </div>
-          </section>
+          </section> */}
         </div>
       </div>
     </>

@@ -121,3 +121,16 @@
 .slick-arrow.slick-hidden {
   display: none;
 }
+
+.imageYear {
+  position: absolute;
+  left: 60px;
+  bottom: 50px;
+  font-size: 15px;
+}
+.imageName {
+  position: absolute;
+  right: 60px;
+  bottom: 50px;
+  font-size: 15px;
+}
