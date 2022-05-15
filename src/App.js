@@ -14,6 +14,8 @@ import Shop from "./components/Shop";
 import Diary from "./components/Diary";
 import Package from "./components/Package";
 import CalendarDetail from "./components/CalendarDetail";
+import Card from "./components/Card";
+import Catarlogue from "./components/Catarlogue";
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/artgoods" component={Shop} />
         <Route path="/diary" component={Diary} />
+        <Route path="/card" component={Card} />
+        <Route path="/catalogue" component={Catarlogue} />
         <Route path="/package" component={Package} />
         <Route component={NotFound} />
       </Switch>

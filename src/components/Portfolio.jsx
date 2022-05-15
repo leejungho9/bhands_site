@@ -93,7 +93,7 @@ export default function Portfolio() {
             <div className={styles.midlebox}></div>
             <div className={styles.bottombox}>
               <div className={styles.bottombox}>
-                <a class={styles.btn} href="/">
+                <a class={styles.btn} href="/card">
                   VIEW MORE
                 </a>
               </div>
@@ -113,7 +113,7 @@ export default function Portfolio() {
             <div className={styles.midlebox}></div>
             <div className={styles.bottombox}>
               <div className={styles.bottombox}>
-                <a class={styles.btn} href="/">
+                <a class={styles.btn} href="/catalogue">
                   VIEW MORE
                 </a>
               </div>

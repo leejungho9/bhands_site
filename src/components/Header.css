@@ -56,11 +56,11 @@ header .logo {
   display: block;
 }
 
-.closeBtn {
+.menuCloseBtn {
   width: 25px;
   height: 25px;
 }
-.nav-menu.active .close {
+.nav-menu.active .menuCloseBtn {
   position: absolute;
   top: 0;
   right: 0;
