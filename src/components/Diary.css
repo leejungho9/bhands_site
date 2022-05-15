@@ -1,6 +1,10 @@
 .dairy {
+  margin: auto;
+  width: 1284px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
 }
 .diary_container {
   width: 1150px;

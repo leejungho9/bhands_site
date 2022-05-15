@@ -1,12 +1,29 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./Header.css";
-
+import { useLocation } from "react-router-dom";
 export default function Header() {
   const [sidebar, setSidebar] = useState(false);
   const showSidebar = () => setSidebar(!sidebar);
 
   const [workMenu, setworkMenu] = useState(false);
   const showworkMenu = () => setworkMenu(!workMenu);
+
+  const pathName = useLocation().pathname;
+
+  useEffect(() => {
+    if (!sidebar) {
+      setworkMenu(false);
+    }
+    if (
+      pathName !== "/" &&
+      pathName !== "/about" &&
+      pathName !== "/contact" &&
+      pathName !== "/artist"
+    ) {
+      setworkMenu(true);
+    }
+  }, [sidebar, pathName]);
+
   return (
     <>
       <div className="bar"></div>
@@ -44,26 +61,67 @@ export default function Header() {
               </h2>
               <ul className={workMenu ? "work-menu active" : "work-menu"}>
                 <li>
-                  <a href="/artgoods">ART GOODS</a>
+                  <a
+                    href="/artgoods"
+                    className={
+                      pathName === "/artgoods" ? "detailMenu active" : ""
+                    }
+                  >
+                    ART GOODS
+                  </a>
                 </li>
                 <li>
-                  <a href="calendar">CALENDAR</a>
+                  <a
+                    href="/calendar"
+                    className={
+                      pathName === "/calendar" ? "detailMenu active" : ""
+                    }
+                  >
+                    CALENDAR
+                  </a>
                 </li>
                 <li>
-                  <a href="diary">DIARY</a>
+                  <a
+                    href="/diary"
+                    className={pathName === "/diary" ? "detailMenu active" : ""}
+                  >
+                    DIARY
+                  </a>
                 </li>
                 <li>
-                  <a href="package">PACKAGE</a>
+                  <a
+                    href="/package"
+                    className={
+                      pathName === "/package" ? "detailMenu active" : ""
+                    }
+                  >
+                    PACKAGE
+                  </a>
                 </li>
                 <li>
-                  <a href="card">CARD</a>
+                  <a
+                    href="/card"
+                    className={pathName === "/card" ? "detailMenu active" : ""}
+                  >
+                    CARD
+                  </a>
                 </li>
                 <li>
-                  <a href="catalogue">CATALOGUE</a>
+                  <a
+                    href="/catalogue"
+                    className={
+                      pathName === "/catalogue" ? "detailMenu active" : ""
+                    }
+                  >
+                    CATALOGUE
+                  </a>
                 </li>
               </ul>
               <h2>
-                <a href="contact"> CONTACT</a>
+                <a href="/contact"> CONTACT</a>
+              </h2>
+              <h2>
+                <a href="/artist"> ARTIST</a>
               </h2>
             </div>
           </div>

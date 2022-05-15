@@ -99,6 +99,7 @@
   margin: auto;
   height: 500px;
 }
+
 .slick-slide.slick-loading img {
   display: none;
 }

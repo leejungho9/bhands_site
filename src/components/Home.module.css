@@ -1,4 +1,5 @@
 /*Content*/
+
 .btn {
   width: 140px;
   height: 28px;
@@ -12,6 +13,10 @@
   cursor: pointer;
   box-sizing: border-box;
   text-align: center;
+}
+.btn:hover {
+  text-decoration: none;
+  color: #3e3a39;
 }
 
 .mainMenu {
@@ -37,7 +42,7 @@
   position: relative;
 }
 
-.portfolio1 {
+.portfolio {
   width: 1150px;
   height: 340px;
   border: 1px solid #b5b5b6;
@@ -57,7 +62,7 @@
   position: relative;
 }
 
-.shop {
+.artist {
   width: 1150px;
   height: 340px;
   border: 1px solid #b5b5b6;

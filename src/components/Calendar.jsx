@@ -23,7 +23,7 @@ export default function Calendar() {
         className={isTopMenu ? "sliderColseBtn-hidden" : "sliderCloseBtn"}
       />
       <Slider value={isTopMenu} />
-      <div className="container">
+      <div className="calendar_container">
         <div className={isTopMenu ? "topMenu" : "topMenu-hidden"}>
           <div className="year">
             <span

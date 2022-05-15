@@ -1,6 +1,8 @@
 .package {
   display: flex;
   justify-content: center;
+  margin: auto;
+  width: 1284px;
 }
 .package_container {
   width: 1150px;

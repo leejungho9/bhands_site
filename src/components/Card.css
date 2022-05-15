@@ -1,4 +1,6 @@
 .card {
+  margin: auto;
+  width: 1284px;
   display: flex;
   justify-content: center;
 }

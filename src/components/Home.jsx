@@ -13,7 +13,7 @@ export default function Home() {
               </a>
             </div>
           </section>
-          <section className={styles.portfolio1}>
+          <section className={styles.portfolio}>
             <div className={styles.box}>
               <h2 className={styles.title}>Portfolio</h2>
               <p className={styles.subtitle}>비핸즈의 제작 제품 포트폴리오</p>
@@ -30,6 +30,15 @@ export default function Home() {
               <h2 className={styles.title}>Contact</h2>
               <p className={styles.subtitle}>비핸즈에 대한 문의 및 연락</p>
               <a href="/contact" className={`${styles.btn} ${styles.aboutBtn}`}>
+                VIEW MORE
+              </a>
+            </div>
+          </section>
+          <section className={styles.artist}>
+            <div className={styles.box}>
+              <h2 className={styles.title}>Artist</h2>
+              <p className={styles.subtitle}>비핸즈와 작업한 아티스트</p>
+              <a href="/artist" className={`${styles.btn} ${styles.aboutBtn}`}>
                 VIEW MORE
               </a>
             </div>
