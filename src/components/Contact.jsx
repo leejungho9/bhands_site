@@ -49,9 +49,9 @@ export default function Contact() {
           </div>
           <div className={styles.Contactbar}></div>
 
-          <div className={styles.mapArea}>
+          {/* <div className={styles.mapArea}>
             <Map />
-          </div>
+          </div> */}
         </div>
       </section>
     </>
