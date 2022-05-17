@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 export default function Home() {
   return (
@@ -8,39 +9,42 @@ export default function Home() {
             <div className={styles.box}>
               <h2 className={styles.title}>About</h2>
               <p className={styles.subtitle}>비핸즈 연혁, 시설, 소개</p>
-              <a href="/about" className={`${styles.btn} ${styles.aboutBtn}`}>
+              <Link to="/about" className={`${styles.btn} ${styles.aboutBtn}`}>
                 VIEW MORE
-              </a>
+              </Link>
             </div>
           </section>
           <section className={styles.portfolio}>
             <div className={styles.box}>
               <h2 className={styles.title}>Portfolio</h2>
               <p className={styles.subtitle}>비핸즈의 제작 제품 포트폴리오</p>
-              <a
-                href="/portfolio"
+              <Link
+                to="/portfolio"
                 className={`${styles.btn} ${styles.aboutBtn}`}
               >
                 VIEW MORE
-              </a>
+              </Link>
             </div>
           </section>
           <section className={styles.contact}>
             <div className={styles.box}>
               <h2 className={styles.title}>Contact</h2>
               <p className={styles.subtitle}>비핸즈에 대한 문의 및 연락</p>
-              <a href="/contact" className={`${styles.btn} ${styles.aboutBtn}`}>
+              <Link
+                to="/contact"
+                className={`${styles.btn} ${styles.aboutBtn}`}
+              >
                 VIEW MORE
-              </a>
+              </Link>
             </div>
           </section>
           <section className={styles.artist}>
             <div className={styles.box}>
               <h2 className={styles.title}>Artist</h2>
               <p className={styles.subtitle}>비핸즈와 작업한 아티스트</p>
-              <a href="/artist" className={`${styles.btn} ${styles.aboutBtn}`}>
+              <Link to="/artist" className={`${styles.btn} ${styles.aboutBtn}`}>
                 VIEW MORE
-              </a>
+              </Link>
             </div>
           </section>
         </div>

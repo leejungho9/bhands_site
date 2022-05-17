@@ -1,6 +1,8 @@
 /* Slider */
 
 .sliderArea {
+  visibility: visible;
+  opacity: 1;
   display: block;
   height: 743px;
   width: 5100px;
@@ -8,7 +10,11 @@
   position: relative;
 }
 .sliderArea-hidden {
-  display: none;
+  height: 10px;
+  opacity: 0;
+  display: block;
+  /* transition: opacity 0.5s ease;
+  -webkit-transition: opacity 1s ease; */
 }
 .imagecontainer {
   margin-top: 85px;
@@ -37,10 +43,9 @@
 
 .slick-list {
   position: relative;
-
+  height: 743px;
   display: block;
   overflow: hidden;
-
   margin: 0;
   padding: 0;
 }
@@ -99,7 +104,6 @@
   margin: auto;
   height: 500px;
 }
-
 .slick-slide.slick-loading img {
   display: none;
 }

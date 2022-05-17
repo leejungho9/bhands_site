@@ -75,6 +75,7 @@ export default function Calendar() {
               2017
             </span>
           </div>
+
           <div class="searchArea">
             <input type="text" placeholder="Search" className="search"></input>
             <button class="searchBtn">

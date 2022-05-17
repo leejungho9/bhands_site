@@ -7,7 +7,7 @@
   line-height: 0;
 
   position: absolute;
-  top: 50%;
+  top: 33%;
 
   display: block;
 
@@ -109,7 +109,7 @@
 
 .slick-dots {
   position: absolute;
-  bottom: -85px;
+  bottom: 150px;
   display: block;
   width: 100%;
   padding: 0;
@@ -133,8 +133,8 @@
   border-radius: 50%;
   line-height: 0;
   display: block;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   padding: 5px;
   cursor: pointer;
   color: transparent;
@@ -157,8 +157,8 @@
   position: absolute;
   top: 4px;
   left: 4px;
-  width: 12px;
-  height: 12px;
+  width: 7px;
+  height: 7px;
   content: "";
   text-align: center;
   opacity: 0;
