@@ -156,8 +156,27 @@ h2.work-menu.active {
 }
 /*반응형*/
 
-@media (max-width: 768px) {
+@media all and (max-width: 767px) {
   header {
     width: 100%;
+  }
+  .bar {
+    height: 5px;
+  }
+  header .logo {
+    width: 89px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+  }
+  header .inner {
+    height: 56px;
+  }
+  .ham {
+    margin-right: 18px;
+  }
+  .hamBtn {
+    width: 17px;
+    height: 14px;
   }
 }

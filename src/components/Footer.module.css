@@ -57,3 +57,34 @@ footer .inner .menu2 .menua::before {
   color: #fff;
   margin-right: 10px;
 }
+
+@media only screen and (max-width: 767px) {
+  footer .inner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+  }
+  footer .menu1 {
+    display: inline;
+  }
+  footer .menu1 .info1 {
+    margin-right: 0;
+  }
+  footer .inner .menu2 {
+    display: flex;
+    bottom: 20px;
+    position: absolute;
+    align-items: center;
+    height: 67px;
+    right: auto;
+    text-align: center;
+  }
+  footer .instalogo {
+    width: 46px;
+    height: 46px;
+    display: inline;
+
+    margin-left: 30px;
+  }
+}

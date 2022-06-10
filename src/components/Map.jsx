@@ -103,7 +103,7 @@ const Map = () => {
     );
   });
 
-  return <div id="map" style={{ height: "400px" }} />;
+  return <div id="map" className="map" />;
 };
 
 export default Map;

@@ -47,8 +47,8 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          <div className={styles.Contactbar}></div>
 
+          <div className={styles.Contactbar}></div>
           <div className={styles.mapArea}>
             <Map />
           </div>

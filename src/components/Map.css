@@ -1,3 +1,7 @@
+.map {
+  height: 400px;
+  width: 100%;
+}
 .wrap {
   position: absolute;
   left: 0;
@@ -43,6 +47,7 @@
   color: #888;
   width: 17px;
   height: 17px;
+  background-repeat: no-repeat;
   background: url("https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/overlay_close.png");
 }
 .info1 .close:hover {
@@ -92,4 +97,20 @@
 }
 .info1 .link {
   color: #5085bb;
+}
+@media all and (max-width: 767px) {
+  .map {
+    height: 200px;
+    width: 100%;
+  }
+  .info1 .title {
+    font-size: 13px;
+  }
+  .info1 .close {
+    width: 10px;
+    height: 10px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
